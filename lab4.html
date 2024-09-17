@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thefacebook</title>
+    <style>
+        header {
+            background-color: #3b5998;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 24px;
+        }
+        header nav ul {
+            list-style: none;
+            padding: 10px;
+        }
+        header nav ul li {
+            display: inline;
+            margin-right: 15px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+            <h1>[thefacebook]</h1>
+            <nav>
+                <ul>
+                    <li>home</li>
+                    <li>search</li>
+                    <li>global</li>
+                    <li>school</li>
+                    <li>invite</li>
+                    <li>faq</li>
+                    <li>logout</li>
+                </ul>
+            </nav>
+    </header>
+    <section id="profile" class="flex-row"></section>
+        <!-- Left Sidebar -->
+        <section id="sidebar" class="flex-column">
+            <label for="search">Quick search</label>
+            <input type="text" id="search">
+            <button>Go</button>
+
+            <ul>
+                <li>My Profile</li>
+                <li>My Groups</li>
+                <li>My Friends</li>
+                <li>My Account Preferences</li>
+                <li>My Privacy</li>
+                <li>My Messages</li>
+            </ul>
+        </section>
+
+        <!-- Main Profile -->
+        <section id="main" class="flex-column">
+            <section id="top-section" class="flex-row">
+                <section id="picture" class="flex-column">
+                    <h2>Kai Uuganbadrakh's Profile</h2>
+                    <img src="/assets/hang.jpg" alt="myProfile">
+                    <a href="#">Edit</a>
+                </section>
+                <section id="profile-info" class="flex-column">
+                    <section id="info">
+                        <table>
+                            <tr><th>Account Info:</th></tr>
+                            <tr><td>Name: Scott Pearson, BS</td></tr>
+                            <tr><td>Member Since: January 12, 2005</td></tr>
+                            <tr><td>Last Update: February 3, 2005</td></tr>
+                            <tr><th>Basic Info:</th></tr>
+                            <tr><td>Status: Alumnus/Alumna</td></tr>
+                            <tr><td>School: Scranton</td></tr>
+                            <tr><td>Year: 2004</td></tr>
+                            <tr><td>Concentration: Economics</td></tr>
+                        </table>
+                        <a href="#">Edit</a>
+                    </section>
+                </section>
+            </section>
+        </section>
+    </section>
+    <footer>
+        <p>&copy; 2004 thefacebook</p>
+    </footer>
+</body>
+</html>
