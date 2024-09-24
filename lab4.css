@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
+body {
+    font-family: 'Libre Baskerville', serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-image: url('assets/hogwarts.jpg');
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #8b4513;
+    border-radius: 10px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #505d92;
+}
+
+.subtitle {
+    color: #666;
+    font-size: 1.2em;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #505d92;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: #505d92;
+}
+
+.contact-info p,
+.job p,
+.education p {
+    margin: 5px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #e4e4e4;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+.job h3 {
+    color: #505d92;
+}
+
+.skills ul li, .languages ul li,
+.interests ul li {
+    background: #d3d3d3;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}

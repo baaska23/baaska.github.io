@@ -3,90 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>thefacebook</title>
-    <style>
-        header {
-            background-color: #3b5998;
-            color: white;
-            padding: 10px;
-            text-align: center;
-        }
-
-        header h1 {
-            font-size: 24px;
-        }
-        header nav ul {
-            list-style: none;
-            padding: 10px;
-        }
-        header nav ul li {
-            display: inline;
-            margin-right: 15px;
-            font-size: 14px;
-        }
-    </style>
+    <title>CV</title>
+    <link rel="stylesheet" href="lab4.css">
 </head>
 <body>
-    <header>
-            <h1>[thefacebook]</h1>
-            <nav>
+    <div class="container">
+        <header>
+            <h1>Baasandorj Uuganbadrakh</h1>
+            <p class="subtitle">Software Engineer</p>
+        </header>
+        <section class="contact-info">
+            <p>Email: b3242342@gmail.com</p>
+            <p>Phone: +976 99889988</p>
+            <p>LinkedIn: linkedin.com/baaska9583</p>
+        </section>
+        <section class="experience">
+            <h2>Experience</h2>
+            <div class="job">
+                <h3>Junior Software Engineer</h3>
+                <p>Infinite Gaming | 2024 - Present</p>
                 <ul>
-                    <li>home</li>
-                    <li>search</li>
-                    <li>global</li>
-                    <li>school</li>
-                    <li>invite</li>
-                    <li>faq</li>
-                    <li>logout</li>
+                    <li>Developed and maintained mobile games</li>
+                    <li>Used Agile development method</li>
+                    <li>Implemented CI/CD pipelines</li>
                 </ul>
-            </nav>
-    </header>
-    <section id="profile" class="flex-row"></section>
-        <!-- Left Sidebar -->
-        <section id="sidebar" class="flex-column">
-            <label for="search">Quick search</label>
-            <input type="text" id="search">
-            <button>Go</button>
-
+            </div>
+            <div class="job">
+                <h3>Part-time Teacher</h3>
+                <p>ABC Education | 2021 - 2022</p>
+                <ul>
+                    <li>Taught 20-student classes</li>
+                    <li>Organized language orientation events</li>
+                    <li>Lead of German Language Department</li>
+                </ul>
+            </div>
+        </section>
+        <section class="education">
+            <h2>Education</h2>
+            <p>Bachelor of Science in Computer Science</p>
+            <p>National University of Mongolia | 2021 - 2025</p>
+        </section>
+        <section class="skills">
+            <h2>Skills</h2>
             <ul>
-                <li>My Profile</li>
-                <li>My Groups</li>
-                <li>My Friends</li>
-                <li>My Account Preferences</li>
-                <li>My Privacy</li>
-                <li>My Messages</li>
+                <li>JavaScript</li>
+                <li>ReactJS</li>
+                <li>Django</li>
+                <li>Three.js</li>
+                <li>Postgresql</li>
             </ul>
         </section>
-
-        <!-- Main Profile -->
-        <section id="main" class="flex-column">
-            <section id="top-section" class="flex-row">
-                <section id="picture" class="flex-column">
-                    <h2>Kai Uuganbadrakh's Profile</h2>
-                    <img src="/assets/hang.jpg" alt="myProfile">
-                    <a href="#">Edit</a>
-                </section>
-                <section id="profile-info" class="flex-column">
-                    <section id="info">
-                        <table>
-                            <tr><th>Account Info:</th></tr>
-                            <tr><td>Name: Scott Pearson, BS</td></tr>
-                            <tr><td>Member Since: January 12, 2005</td></tr>
-                            <tr><td>Last Update: February 3, 2005</td></tr>
-                            <tr><th>Basic Info:</th></tr>
-                            <tr><td>Status: Alumnus/Alumna</td></tr>
-                            <tr><td>School: Scranton</td></tr>
-                            <tr><td>Year: 2004</td></tr>
-                            <tr><td>Concentration: Economics</td></tr>
-                        </table>
-                        <a href="#">Edit</a>
-                    </section>
-                </section>
-            </section>
+        <section class="languages">
+            <h2>Languages</h2>
+            <ul>
+                <li>Mongolian</li>
+                <li>English</li>
+                <li>German</li>
+                <li>French</li>
+            </ul>
         </section>
-    </section>
-    <footer>
-        <p>&copy; 2004 thefacebook</p>
-    </footer>
+        <section class="interests">
+            <h2>Interests</h2>
+            <ul>
+                <li>Reading</li>
+                <li>Traveling</li>
+                <li>Running</li>
+                <li>Fitness</li>
+            </ul>
+        </section>
+    </div>
 </body>
 </html>
